@@ -125,6 +125,12 @@ h2{
     text-transform: uppercase;
 }
 
+.p-head{
+    text-align: center;
+    padding: 0 17%;
+    margin-bottom: 20px;
+}
+
 .our-purpose{
     margin: 50px 0;
 }
@@ -299,9 +305,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.blog{
-    
 }
 
 .blog-display{
@@ -501,6 +504,11 @@ footer .social-media a{
     #check:checked ~ ul{
         left: 0;
     }
+    .p-head{
+        text-align: center;
+        padding: 0 13%;
+        margin-bottom: 20px;
+    }
     #header-texts{
         display: none;
     }
@@ -565,19 +573,43 @@ footer .social-media a{
 }
 
 @media screen and (max-width: 768px){
+    .p-head{
+        text-align: center;
+        padding: 0 5%;
+        margin-bottom: 20px;
+    }
     #purpose{
         display: block;
+        margin-left: 20px;
     }
     #challenge-view{
         display: block;
+        margin: auto;
+    }
+    #challenge-view img{
+        height: 300px;
     }
     #team{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
     .blog-display{
         display: block;
+        margin: auto;
     }
     footer{
         display: block;
+    }
+    .events-display{
+        grid-template-columns: auto 80px;
+    }
+    .events{
+        padding: 25px 10px;
+    }
+    .events-display-one{
+        padding: 15px 10px;
     }
 }
