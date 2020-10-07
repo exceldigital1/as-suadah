@@ -212,7 +212,8 @@ main{
 #team{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 20px;
+    margin: 20px 40px;
+    grid-gap: 1em;
 }
 
 .team-member h3{
@@ -256,12 +257,12 @@ main{
 }
 
 #our-team .team-member img{
-    width: 300px;
+    width: 100%;
     height: 300px;
 }
 
 #our-team .team-member{
-    width: 300px;
+    width: auto;
     padding-bottom: 40px;
     background: rgb(249,249,249);
 }
@@ -311,8 +312,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    margin: 0 50px;
-    margin-top: 20px;
+    margin: 20px 40px;
 }
 .blogs{
     padding: 50px 0;
@@ -328,6 +328,7 @@ main{
 
 .blog .blog-items{
     padding: 20px;
+    width: auto;
     border: 1px solid dimgray;
     border-top: none;
 }
@@ -337,8 +338,6 @@ main{
     margin: 10px 0;
     font-weight: 500;
 }
-
-
 
 .blog .blog-link{
     margin-top: 10px;
@@ -439,6 +438,7 @@ footer form #submit:hover{
 footer .social-media a{
     padding: 0;
     background: none;
+    border: none;
 }
 .social-media{
     display: flex;
@@ -446,9 +446,11 @@ footer .social-media a{
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .social-media .fa{
     font-size: 20px;
     transition: all .5s;
+    border: none;
 }
 .social-media .fa:hover{
 }
@@ -464,7 +466,8 @@ footer .social-media a{
         margin-right: 20px;
     }
     .fa{
-        border: 2px solid white;
+        border: 2px solid rgb(255,192,0);
+        color:  rgb(255,192,0);
         padding: 0px 3px;
     }
     nav ul{
@@ -499,7 +502,7 @@ footer .social-media a{
     }
     nav ul li a{
         font-size: 23px;
-        color: rgb(41, 197, 107);
+        color: rgb(255,192,0);
     }
     #check:checked ~ ul{
         left: 0;
@@ -528,6 +531,7 @@ footer .social-media a{
     }
     #challenge-view{
         grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
     }
     #challenge-view .challenge-items div{
         padding-left: 20px;
@@ -546,19 +550,22 @@ footer .social-media a{
         grid-template-columns: 1fr 1fr;
         padding-left: 20px;
         padding-right: 20px;
+        justify-content: space-between;
     }
     #team .team-member{
         margin-bottom: 35px;
     }
     .blog-display{
         grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        margin: 20px;
     }
     .blog-items{
         margin-bottom: 35px;
         padding: 20px 0;
     }
     .blog-display{
-        margin: 20px 0px;
+        margin: 20px;
     }
     .blog img{
         height: 350px;
@@ -574,7 +581,7 @@ footer .social-media a{
 
 @media screen and (max-width: 768px){
     .p-head{
-        text-align: center;
+        text-align: justify;
         padding: 0 5%;
         margin-bottom: 20px;
     }
@@ -589,6 +596,9 @@ footer .social-media a{
     #challenge-view img{
         height: 300px;
     }
+    #our-team .team-member{
+        width: 320px;
+    }
     #team{
         display: flex;
         flex-direction: column;
@@ -598,8 +608,9 @@ footer .social-media a{
     }
     .blog-display{
         display: block;
-        margin: auto;
+        margin: 20px;
     }
+
     footer{
         display: block;
     }
