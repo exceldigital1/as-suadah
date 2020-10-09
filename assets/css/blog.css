@@ -1,0 +1,106 @@
+header{
+    height: 60vh;
+}
+.bloging img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 350px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+p{
+    color:rgb(102,102,102);
+}
+h2{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+h3{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bloging p{
+    margin: 15px 0;
+    color:rgb(102,102,102);
+}
+.bloging span{
+    color:  rgb(255,192,0);
+}
+.bloging h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.bloging a{
+    padding: 15px;
+    font-size: 17px;
+}
+.bloging{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.bloging div{
+    padding: 20px 15px;
+    border: 1px solid lightgray;
+    margin: 0;
+    background: rgb(250,250,250);
+}
+#recent-post{
+    background: rgb(250,250,250);
+}
+#recent-post h3{
+    background: rgb(56,40,23);
+    padding: 10px;
+}
+#recent-post p{
+    padding: 10px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+#recent-post p .spans{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.mid-border{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+#about-us{
+    background: rgb(250,250,250);
+}
+#about-us h2{
+    line-height: 1;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+#about-us p{
+    border-top: 1px solid lightgray;
+    padding: 10px;
+    background: white;
+}
+
+#about-us h3{
+    background: rgb(56,40,23);
+    padding: 10px;
+}
+
+@media screen and (min-width: 900px){
+    main{
+        display: grid;
+        margin: 40px;
+        background: white;
+        grid-template-columns: 70% 30%;
+        grid-gap: 2em;
+    }
+}

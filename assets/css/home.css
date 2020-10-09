@@ -148,6 +148,7 @@ h2{
 
 #purpose{
     display: grid;
+    grid-gap: 1em;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 40px;
 }
