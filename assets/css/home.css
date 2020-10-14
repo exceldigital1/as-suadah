@@ -452,6 +452,7 @@ footer .social-media a{
     font-size: 20px;
     transition: all .5s;
     border: none;
+    color: whiteg;
 }
 .social-media .fa:hover{
 }
@@ -525,6 +526,9 @@ footer .social-media a{
     }
     #purpose div{
         margin-bottom: 35px;
+    }
+    #purpose div .fa{
+        color: black;
     }
     main{
         padding-left: 20px;

@@ -1,0 +1,77 @@
+header{
+    height: 60vh;
+}
+
+h1{
+    color: white;
+    margin-left: 40px;
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+p{
+    color:rgb(102,102,102);
+}
+h2{
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+}
+main h2{
+    margin: 20px 0;
+    font-size: 25px;
+}
+#about-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em;
+    margin-top: 50px;
+}
+#about-details h3{
+    color: rgb(255,192,0);
+    margin-bottom: 20px;
+}
+.details-items div p{
+    line-height: 1.5;
+} 
+.details-items div{
+    display: flex;
+    align-items: center;
+}
+.details-items div .fa{
+    border: none;
+    color: rgb(255,192,0);
+    font-size: 50px;
+    margin-right: 20px;
+}
+#purpose div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 10px;
+    border: 1px solid lightgrey;
+}
+#purpose div .fa{
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 900px){
+    main{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 1em;
+    }
+    #purpose{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+    #purpose h3{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
