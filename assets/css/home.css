@@ -20,10 +20,8 @@ header nav{
 }
 
 nav img{
-    line-height: 80px;
     margin-left: 60px;
-    margin-top: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 140px;
     height: 120px;
 }
@@ -31,7 +29,7 @@ nav img{
 nav ul{
     float: right;
     margin-right: 60px;
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: center;
     border-bottom: 2px solid white;
 }
@@ -463,7 +461,7 @@ footer .social-media a{
 }
 @media screen and (max-width: 1000px){
     ul li a:hover, a:active{
-        color: seagreen;
+        color: rgb(126,93,14);
         padding: 2px 5px;
         font-size: 20px;
     }
@@ -473,9 +471,10 @@ footer .social-media a{
         margin-right: 20px;
     }
     .fa{
-        border: 2px solid rgb(255,192,0);
-        color:  rgb(255,192,0);
+        border: 2px solid white;
+        color:  white;
         padding: 0px 3px;
+        margin-top: 20px;
     }
     nav ul{
         position: fixed;
@@ -485,7 +484,7 @@ footer .social-media a{
         opacity: 1;
         margin: 0;
         padding: 0;
-        top: 80px;
+        top: 100px;
         text-align: center;
         display: flex;
         flex-direction: column;
