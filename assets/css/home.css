@@ -142,6 +142,9 @@ h2{
     transition: all .9s;
     border-radius: 50%;
 }
+#purpose div p{
+    text-align: justify;
+}
 #purpose div .fa:hover{
     border-radius: 0;
 }
@@ -193,6 +196,9 @@ main{
 #challenge-view div{
     margin-top: 0px;
 }
+#challenge-view div p{
+    text-align: justify;
+}
 
 #challenge-view img{
     height: 250px;
@@ -235,7 +241,7 @@ main{
 }
 .team-member p{
     padding: 0 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .team-member a{
     margin: 20px 0;
@@ -253,13 +259,14 @@ main{
 .team-member p{
     text-align: center;
 }
+
 #our-team{
     padding: 50px 0;
 }
 
 #our-team .team-member img{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: whitesmoke;
 }
 
@@ -334,6 +341,9 @@ main{
     border: 1px solid dimgray;
     border-top: none;
 }
+.blog .blog-items p{
+    text-align: justify;
+}
 .blog h5{
     text-transform: uppercase;
     font-size: 16px;
@@ -370,6 +380,7 @@ footer div{
 }
 .footer-about p{
     color: white;
+    text-align: justify;
 }
 .twitter a{
     padding-bottom: 12px;
@@ -470,17 +481,17 @@ footer .social-media a{
         color: white;
         margin-right: 20px;
     }
-    .fa{
+    nav .fa{
         border: 2px solid white;
         color:  white;
         padding: 0px 3px;
-        margin-top: 20px;
+        margin-top: 2px;
     }
     nav ul{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: whitesmoke;
+        background: rgb(145, 145, 185);
         opacity: 1;
         margin: 0;
         padding: 0;
@@ -505,10 +516,15 @@ footer .social-media a{
     }
     nav img{
         margin-left: 20px;
+        height: 80px;
+        width: 100px;
     }
     nav ul li a{
         font-size: 23px;
-        color: rgb(255,192,0);
+        color: white;
+    }
+    header{
+        height: 80vh;
     }
     #check:checked ~ ul{
         left: 0;
@@ -593,6 +609,9 @@ footer .social-media a{
         text-align: justify;
         padding: 0 5%;
         margin-bottom: 20px;
+    }
+    #purpose div .fa{
+        margin-right: 12px;
     }
     #purpose{
         display: block;

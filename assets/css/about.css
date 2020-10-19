@@ -5,7 +5,7 @@ header{
 h1{
     color: white;
     margin-left: 20px;
-    margin-top: 40vh;
+    margin-top: 37vh;
     font-size: 40px;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -13,6 +13,7 @@ h1{
 }
 p{
     color:rgb(102,102,102);
+    text-align: justify;
 }
 h2{
     text-align: left;
@@ -46,13 +47,16 @@ main h2{
     font-size: 50px;
     margin-right: 20px;
 }
+#purpose{
+    margin: auto;
+    margin-top: 20px;
+}
 #purpose div{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px auto 20px auto;
     width: fit-content;
-
     padding: 30px 10px;
     border: 1px solid lightgrey;
 }
@@ -84,9 +88,17 @@ main h2{
     }
 }
 @media screen and (max-width: 500px){
-    #about-details{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    #about-details .fa{
+        font-size: 20px;
+        margin-right: 8px;
+    }
+    #about-details h3{
+        font-size: 14px;
+        
+    }
+    #about-details p{
+        font-size: 12px;
+        text-align: left;
+        word-spacing: 0.5px;
     }
 }
