@@ -243,18 +243,26 @@ main{
     padding: 0 20px;
     margin-bottom: 20px;
 }
-.team-member a{
+
+.team-member .social-media:hover{
+    background-color: rgb(56,40,23);
+}
+
+.team-member .social-media .fa:hover{
+    color:  rgb(255,201,38);
+}
+
+.team-member .social-media{
     margin: 20px 0;
-    display: block;
+    display: flex;
     text-align: center;
-    background: white;
+    background-color: rgb(255,201,38);
     padding: 10px 15px;
     font-size: 16px;
     text-transform: uppercase;
     transition: all .5s;
-    width: fit-content;
+    width: 200px;
     margin: auto;
-    color: black;
 }
 .team-member p{
     text-align: center;
