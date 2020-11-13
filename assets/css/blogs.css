@@ -23,7 +23,6 @@ p{
     color:rgb(102,102,102);
     font-size: 17px;
     line-height: 1.5;
-    text-align: justify;
     margin: 20px 0;
     font-family: monospace;
 }
@@ -43,10 +42,15 @@ section li{
 }
 img{
     height: 450px;
-    width: 100%;
+    width: 96.8%;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 section{
     margin: 10px 20px;
+}
+footer{
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 1000px){
